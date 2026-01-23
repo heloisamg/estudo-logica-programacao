@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="primeiro flowgorithm"/>
+        <attribute name="authors" value="Konvidado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-12 09:02:53 "/>
+        <attribute name="created" value="S29udmlkYWRvO0RFU0tUT1AtVjI5QjlRRTsyMDI2LTAxLTEyOyIwODozMjoxNiAiOzMxNjU="/>
+        <attribute name="edited" value="S29udmlkYWRvO0RFU0tUT1AtVjI5QjlRRTsyMDI2LTAxLTEyOyIwOTowMjo1MyAiOzE7MzI3Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <input variable="idade"/>
+            <if expression="idade &lt; 20">
+                <then>
+                    <output expression="&quot;voc&#234; ja viveu &quot; &amp; (idade * 365) &amp; &quot; dias&quot;" newline="True"/>
+                    <output expression="&quot;E ainda vai viver pra caramba&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;voc&#234; ja viveu &quot; &amp; (idade * 365) &amp; &quot; dias&quot; &amp; &#13;&#10;&quot;e ainda vai viver &quot; &amp; (365 * 80 - idade * 365) &amp; &#13;&#10;&quot; dias em m&#233;dia&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
