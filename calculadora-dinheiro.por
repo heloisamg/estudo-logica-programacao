@@ -3,40 +3,40 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro dois 
-		inteiro cinco
-		inteiro dez
-		inteiro vinte
-		inteiro cinquenta
-		inteiro cem
-		inteiro duzentos
-		inteiro resultado 
+		inteiro cedulasDoisReais
+		inteiro cedulasCincoReais
+		inteiro cedulasDezReais
+		inteiro cedulasVinteReais
+		inteiro cedulasCinquentaReais
+		inteiro cedulasCemReais
+		inteiro cedulasDuzentosReais
+		real resultado 
 
           // Entrada de dados
 		escreva("Notas de R$2: ")
-		leia(dois)
+		leia(cedulasDoisReais)
 
 		escreva("Notas de R$5: ")
-		leia(cinco)
+		leia(cedulasCincoReais)
 
 		escreva("Notas de R$10: ")
-		leia(dez)
+		leia(cedulasDezReais)
 
 		escreva("Notas de R$20: ")
-		leia(vinte)
+		leia(cedulasVinteReais)
 
 		escreva("Notas de R$50: ")
-		leia(cinquenta)
+		leia(cedulasCinquentaReais)
 
 		escreva("Notas de R$100: ")
-		leia(cem)
+		leia(cedulasCemReais)
 
 		escreva("Notas de R$200: ")
-		leia(duzentos)
+		leia(cedulasDuzentosReais)
 		
 
 		// Processamento de dados
-		resultado = dois * 2 + cinco * 5 + dez * 10 + vinte * 20 + cinquenta * 50 + cem * 100 + duzentos * 200
+		resultado = cedulasDoisReais * 2 + cedulasCincoReais * 5 + cedulasDezReais * 10 + cedulasVinteReais * 20 + cedulasCinquentaReais * 50 + cedulasCemReais * 100 + cedulasDuzentosReais * 200
 
 		// Saída de dados
 		escreva("O valor obtido é de: R$" + resultado)
@@ -47,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 645; 
+ * @POSICAO-CURSOR = 12; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
