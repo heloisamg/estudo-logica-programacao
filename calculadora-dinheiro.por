@@ -8,7 +8,7 @@ programa
 		inteiro moedaVinteCincoCentavos
 		inteiro moedaCinquentaCentavos
 		inteiro moedaUmReal
-		real moedas
+		real valorMoedas
 		
 		inteiro cedulasDoisReais
 		inteiro cedulasCincoReais
@@ -17,7 +17,7 @@ programa
 		inteiro cedulasCinquentaReais
 		inteiro cedulasCemReais
 		inteiro cedulasDuzentosReais
-		inteiro cedulas
+		inteiro valorCedulas
 
 		real resultado
 
@@ -62,9 +62,9 @@ programa
 		
 
 		// Processamento de dados
-		cedulas = cedulasDoisReais * 2 + cedulasCincoReais * 5 + cedulasDezReais * 10 + cedulasVinteReais * 20 + cedulasCinquentaReais * 50 + cedulasCemReais * 100 + cedulasDuzentosReais * 200
-		moedas = moedaCincoCentavos * 0.05 + moedaDezCentavos * 0.10 + moedaVinteCincoCentavos * 0.25 + moedaCinquentaCentavos * 0.50 + moedaUmReal * 1
-		resultado = moedas + cedulas
+		valorCedulas = cedulasDoisReais * 2 + cedulasCincoReais * 5 + cedulasDezReais * 10 + cedulasVinteReais * 20 + cedulasCinquentaReais * 50 + cedulasCemReais * 100 + cedulasDuzentosReais * 200
+		valorMoedas = moedaCincoCentavos * 0.05 + moedaDezCentavos * 0.10 + moedaVinteCincoCentavos * 0.25 + moedaCinquentaCentavos * 0.50 + moedaUmReal * 1
+		resultado = valorMoedas + valorCedulas
 
 		
 		// Saída de dados
@@ -76,7 +76,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1420; 
+ * @POSICAO-CURSOR = 1585; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
