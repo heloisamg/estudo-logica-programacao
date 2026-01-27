@@ -22,42 +22,45 @@ programa
 		real resultado
 
           // Entrada de dados
-		escreva("moedas de R$0.05: ")
+		escreva("CALCULADORA DE DINHEIRO\n")
+		escreva("Informe corretamente os valores a seguir:\n\n")
+          
+		escreva("Moedas de R$ 0,05: ")
 		leia(moedaCincoCentavos)
 
-		escreva("moedas de R$0.10: ")
+		escreva("Moedas de R$ 0,10: ")
 		leia(moedaDezCentavos)
 
-		escreva("moedas de R$0.25: ")
+		escreva("Moedas de R$ 0,25: ")
 		leia(moedaVinteCincoCentavos)
 
-		escreva("moedas de R$0.50: ")
+		escreva("Moedas de R$ 0,50: ")
 		leia(moedaCinquentaCentavos)
 
-		escreva("moedas de R$1.0: ")
+		escreva("Moedas de R$ 1,00: ")
 		leia(moedaUmReal)
 		
 
           
-		escreva("Notas de R$2: ")
+		escreva("Notas de R$ 2: ")
 		leia(cedulasDoisReais)
 
-		escreva("Notas de R$5: ")
+		escreva("Notas de R$ 5: ")
 		leia(cedulasCincoReais)
 
-		escreva("Notas de R$10: ")
+		escreva("Notas de R$ 10: ")
 		leia(cedulasDezReais)
 
-		escreva("Notas de R$20: ")
+		escreva("Notas de R$ 20: ")
 		leia(cedulasVinteReais)
 
-		escreva("Notas de R$50: ")
+		escreva("Notas de R$ 50: ")
 		leia(cedulasCinquentaReais)
 
-		escreva("Notas de R$100: ")
+		escreva("Notas de R$ 100: ")
 		leia(cedulasCemReais)
 
-		escreva("Notas de R$200: ")
+		escreva("Notas de R$ 200: ")
 		leia(cedulasDuzentosReais)
 		
 
@@ -76,7 +79,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1585; 
+ * @POSICAO-CURSOR = 1261; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
