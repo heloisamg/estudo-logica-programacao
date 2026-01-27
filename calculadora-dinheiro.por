@@ -8,6 +8,7 @@ programa
 		inteiro dez
 		inteiro vinte
 		inteiro cinquenta
+		inteiro cem
 		inteiro resultado 
 
           // Entrada de dados
@@ -26,8 +27,12 @@ programa
 		escreva("Notas de R$50: ")
 		leia(cinquenta)
 
+		escreva("Notas de R$100: ")
+		leia(cem)
+		
+
 		// Processamento de dados
-		resultado = dois * 2 + cinco * 5 + dez * 10 + vinte * 20 + cinquenta * 50
+		resultado = dois * 2 + cinco * 5 + dez * 10 + vinte * 20 + cinquenta * 50 + cem * 100
 
 		// Saída de dados
 		escreva("O valor obtido é de: R$" + resultado)
@@ -38,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 489; 
+ * @POSICAO-CURSOR = 561; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
