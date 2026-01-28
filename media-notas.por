@@ -28,8 +28,16 @@ programa
 		escreva("Digite a média do 4º bimestre: ")
 		leia(bimestre4)
 
-		media = bimestre1 + bimestre2 + bimestre3 + bimestre4
-		escreva("Sua média anual é: " + (media / 4))
+		media = (bimestre1 + bimestre2 + bimestre3 + bimestre4) / 4
+		escreva("Sua média anual é: " + media )
+		escreva("\n\n")
+		
+		se (media >= 7) {
+			escreva("Parabéns, você passou de ano ! ! !\n")
+		}
+		senao {
+			escreva("Lamento, continue tentando\n")
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -37,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 575; 
+ * @POSICAO-CURSOR = 486; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
