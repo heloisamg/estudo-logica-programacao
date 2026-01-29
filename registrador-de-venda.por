@@ -8,6 +8,8 @@ programa
 		real preco
 		caracter continuar = 's'
 		inteiro total_itens = 0
+		real preco_total
+		real total_geral = 0.0
 
 		escreva("Bem-vindo a sua melhor lista de compras ! ! ! \n")
 		
@@ -22,13 +24,17 @@ programa
 
 			// cálculos
 			total_itens = total_itens + 1
+			preco_total = preco * quantidade
+			total_geral = total_geral + preco_total
+
 
 			// confirmação para continuar
 			escreva("Deseja continuar? (s/n): ")
 			leia(continuar)
 		}
 
-		escreva("O total de itens é: " + total_itens)
+		escreva("\nO total de itens é: " + total_itens)
+		escreva("\nO preço total é: " + total_geral)
 	} 
 }
 /* $$$ Portugol Studio $$$ 
@@ -36,9 +42,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 632; 
+ * @POSICAO-CURSOR = 805; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {produto, 6, 9, 7}-{quantidade, 7, 10, 10}-{preco, 8, 7, 5}-{continuar, 9, 11, 9};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
