@@ -7,10 +7,10 @@ programa
 		inteiro quantidade
 		real preco
 		caracter continuar = 's'
-		inteiro total_itens = 0
 		real preco_total
-		real total_geral = 0.0
+		inteiro total_itens = 0
 		inteiro total_quantidade = 0
+		real total_geral = 0.0
 
 		escreva("Bem-vindo a sua melhor lista de compras ! ! ! \n")
 		
@@ -35,9 +35,9 @@ programa
 			leia(continuar)
 		}
 
-		escreva("\nA quantidade de itens é: " + total_itens)
-		escreva("\nO total de itens é: " + total_quantidade)
-		escreva("\nO preço total é: " + total_geral)
+		escreva("\nA total de itens é: " + total_itens)
+		escreva("\nO total de quantidade é: " + total_quantidade)
+		escreva("\nO total geral é: " + total_geral)
 	} 
 }
 /* $$$ Portugol Studio $$$ 
@@ -45,9 +45,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 850; 
+ * @POSICAO-CURSOR = 930; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {produto, 6, 9, 7}-{quantidade, 7, 10, 10}-{preco, 8, 7, 5}-{preco_total, 11, 7, 11}-{total_geral, 12, 7, 11}-{total_quantidade, 13, 10, 16};
+ * @SIMBOLOS-INSPECIONADOS = {produto, 6, 9, 7}-{quantidade, 7, 10, 10}-{preco, 8, 7, 5}-{preco_total, 10, 7, 11}-{total_quantidade, 12, 10, 16}-{total_geral, 13, 7, 11};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
