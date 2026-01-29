@@ -8,10 +8,10 @@ programa
 		real valor_imposto
 
 		
-		escreva("== CAULCULADORA DE IMPOSTO ==\n")
-		escreva("-----------------------------\n\n")
+		escreva("::: CAULCULADORA DE IMPOSTO :::\n")
+		escreva("-------------------------------\n\n")
 
-		escreva("Informe corretamente os valores a seguir: \n")
+		escreva("Informe corretamente os valores a seguir.\n")
 		
 		escreva("Informe o valor da base de cálculo: ")
 		leia(base_de_calculo)
@@ -28,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 374; 
+ * @POSICAO-CURSOR = 251; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
