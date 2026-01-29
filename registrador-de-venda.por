@@ -28,7 +28,6 @@ programa
 			preco_total = preco * quantidade
 			total_geral = total_geral + preco_total
 			total_quantidade = total_quantidade + quantidade
-			quantidade = quantidade + total_itens
 
 
 			// confirmação para continuar
@@ -46,9 +45,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 942; 
+ * @POSICAO-CURSOR = 850; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {produto, 6, 9, 7}-{quantidade, 7, 10, 10}-{preco, 8, 7, 5}-{total_itens, 10, 10, 11}-{preco_total, 11, 7, 11}-{total_geral, 12, 7, 11}-{total_quantidade, 13, 10, 16};
+ * @SIMBOLOS-INSPECIONADOS = {produto, 6, 9, 7}-{quantidade, 7, 10, 10}-{preco, 8, 7, 5}-{preco_total, 11, 7, 11}-{total_geral, 12, 7, 11}-{total_quantidade, 13, 10, 16};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
